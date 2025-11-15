@@ -1,7 +1,6 @@
 [![](https://img.shields.io/badge/c-black?logo=c&style=for-the-badge)](https://learnxinyminutes.com/c/)
 
 # Debxp: Curso básico da linguagem C
-> Curso disponível em: https://gitlab.com/blau_araujo/cblc
 
 Códigos do curso de C disponibilizado pelo canal debxp: https://www.youtube.com/playlist?list=PLXoSGejyuQGrDX08GVrQHAhh4j3KJ4iYN.
 
