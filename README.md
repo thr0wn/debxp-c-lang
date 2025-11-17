@@ -56,3 +56,17 @@ Arquivos:
 - [loop3.c](aula5/loop3.c) loop reverso simples usando do-while.
 - [loop4.c](aula5/loop4.c) loop simples usando for e if-else's.
 - [loop5.c](aula5/loop5.c) loop simples usando for e switch-case.
+
+## Aula 6
+> https://gitlab.com/blau_araujo/cblc/-/tree/main/aulas/06-vetores
+
+Vetores e ponteiros.
+
+Arquivos:
+- [array1-with-vars.c](aula6/array1-with-vars.c) variáveis para calcular somatório e média de notas (sem arrays).
+- [array1.c](aula6/array1.c) arrays para calcular somatório e média de uma lista de notas.
+- [array2.c](aula6/array2.c) navega por um array usando ponteiros.
+- [array3.c](aula6/array3.c) exibe valores de array antes e depois de definir valores.
+- [array4.c](aula6/array4.c) array como parâmetro de funções.
+- [array5.c](aula6/array5.c) exibe endereço e pointeiro de um array.
+- [array6.c](aula6/array6.c) array de characteres e ponteiro de characteres.
