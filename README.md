@@ -37,10 +37,22 @@ Arquivos:
 ## Aula 4
 > https://gitlab.com/blau_araujo/cblc/-/tree/main/aulas/04-variaveis
 
-Nessa aula são abordados váriaveis, ponteiros e escopos.
+Um pouco mais sobre váriaveis, ponteiros e escopos.
 
 Arquivos:
 - [var1.c](aula4/var1.c) exibe valores de variáveis.
 - [var2.c](aula4/var2.c) exibe valores de váriaveis, endereços, tamanhos e valores.
 - [var3.c](aula4/var3.c) não compila por problemas de escopo propositais.
 - [var4.c](aula4/var4.c) aritmética de ponteiros.
+
+## Aula 5
+> https://gitlab.com/blau_araujo/cblc/-/tree/main/aulas/05-controle
+
+Controle de fluxo.
+
+Arquivos:
+- [loop1.c](aula5/loop1.c) loop simples usando for.
+- [loop2.c](aula5/loop2.c) loop simples usando while.
+- [loop3.c](aula5/loop3.c) loop reverso simples usando do-while.
+- [loop4.c](aula5/loop4.c) loop simples usando for e if-else's.
+- [loop5.c](aula5/loop5.c) loop simples usando for e switch-case.
