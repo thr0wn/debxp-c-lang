@@ -35,7 +35,7 @@ Arquivos:
 - [limites.c](aula3/limites.c) tamanhos e limites de tipos em c.
 
 ## Aula 4
-> https://gitlab.com/blau_araujo/cblc/-/tree/main/aulas/01-historia
+> https://gitlab.com/blau_araujo/cblc/-/tree/main/aulas/04-variaveis
 
 Nessa aula são abordados váriaveis, ponteiros e escopos.
 
