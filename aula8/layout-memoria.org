@@ -1,0 +1,63 @@
+** Layout de memória
+
+Quando o processo é iniciado, ele recebe uma faixa contínua de endereços /virtuais/
+de memória, segundo o layout abaixo:
+
+#+begin_example
+      ENDEREÇOS MAIS ALTOS
+  +--------------------------+ ---+
+  |      Vetor Ambiente      |    |
+  +--------------------------+    |
+  |     Vetor Argumentos     |    |
+  +--------------------------+  PILHA (STACK)
+  | Quantidade de argumentos |    |
+  +--------------------------+    |
+  |    Dados das funções     |    |
+  +------------+-------------+ ---+
+  |            ↓             |
+  |                          |
+  |            ↑             |
+  +------------+-------------+
+  |                          |  <- Mapeamento de arquivos.
+  |           HEAP           |  <- Bibliotecas dinâmicas.
+  |                          |  <- Alocação dinâmica.
+  +--------------------------+
+  |         .bss             |  Dados globais e estáticos não inicializados.
+  +--------------------------+
+  |         .data            |  Dados globais e estáticos inicializados.
+  +--------------------------+
+  |        .rodata           |  Dados constantes (read only).
+  +--------------------------+
+  |         .text            |  Código do programa.
+  +--------------------------+
+     ENDEREÇOS MAIS BAIXOS
+#+end_example
+
+*** Conteúdo do binário executável
+
+As seções do binário do executável serão copiadas para os segmentos
+mais baixos desse espaço de endereços.
+
+*** Região do HEAP
+
+Acima dos dados do binário, uma grande região é designada para a alocação
+dinâmica de espaços em memória para receber dados processados durante a execução
+do programa: o /heap/. Nesta mesma região, também são carregados os conteúdos
+binários das bibliotecas carregadas dinamicamente, como a =glibc=, o =ld-linux= e
+a biblioteca =vdso=, do kernel.
+
+*** Região da pilha (stack)
+
+Nos endereços mais altos, é configurada uma estrutura de dados chamada /pilha/.
+Como o nome sugere, é uma estrutura onde os dados são "empilhados" uns sobre os
+outros, como numa pilha de pratos.
+
+Na base da pilha, nós encontramos um vetor de strings contendo as variáveis
+exportadas para o processo (vetor ambiente). Imediatamente acima, nós temos
+outro vetor de strings com as palavras utilizadas na linha do comando para
+invocar a execução do programa e, eventualmente, seus argumentos (vetor de
+argumentos ou /parâmetros/). Por último, no topo da pilha, nós encontraremos
+a quantidade de palavras no vetor de argumentos.
+
+Ao longo da execução do programa, os dados das funções que forem chamadas
+serão incluídos no topo da pilha e serão removidos quando elas terminarem.

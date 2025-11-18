@@ -77,7 +77,18 @@ Arquivos:
 Vetores, ponteiros e strings.
 
 Arquivos:
-- [array-and-pointer1.c](aula6/array-and-pointer1.c) formas de se declarar um vetor.
-- [array-and-pointer2.c](aula6/array-and-pointer2.c) exibe valores de vetores e ponteiros de forma comparativa (com tabela de notação).
-- [array-and-pointer3.c](aula6/array-and-pointer3.c) declarando um ponteiro para string.
-- [array-and-pointer4.c](aula6/array-and-pointer4.c) media de notas com array e ponteiro.
+- [array-and-pointer1.c](aula7/array-and-pointer1.c) formas de se declarar um vetor.
+- [array-and-pointer2.c](aula7/array-and-pointer2.c) exibe valores de vetores e ponteiros de forma comparativa (com tabela de notação).
+- [array-and-pointer3.c](aula7/array-and-pointer3.c) declarando um ponteiro para string.
+- [array-and-pointer4.c](aula7/array-and-pointer4.c) media de notas com array e ponteiro.
+
+
+## Aula 8
+> https://gitlab.com/blau_araujo/cblc/-/tree/main/aulas/08-processos
+
+Processos e layout de memória.
+
+Arquivos:
+- [fork-exec.c](aula8/fork-exec.c) formas de se declarar um vetor.
+- [layout-memoria.org](aula8/layout-memoria.org) tabela com o layout de memória.
+- [mmap.c](aula8/layout-memoria.org) layout de memória como obtido em /proc/self/maps.
