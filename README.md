@@ -92,3 +92,14 @@ Arquivos:
 - [fork-exec.c](aula8/fork-exec.c) formas de se declarar um vetor.
 - [layout-memoria.org](aula8/layout-memoria.org) tabela com o layout de memória.
 - [mmap.c](aula8/layout-memoria.org) layout de memória como obtido em /proc/self/maps.
+
+## Aula 9
+> https://gitlab.com/blau_araujo/cblc/-/tree/main/aulas/09-args
+
+Argumentos e ambiente.
+
+Arquivos:
+- [arg0.c](aula9/arg0.c) imprime um array de strings.
+- [arg1.c](aula9/arg1.c) imprime argv.
+- [arg2.c](aula9/arg2.c) soma argumentos usando strtol.
+- [arg3.c](aula9/arg3.c) imprime variáveis de ambiente getenv.
