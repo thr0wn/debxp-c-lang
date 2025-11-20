@@ -103,3 +103,13 @@ Arquivos:
 - [arg1.c](aula9/arg1.c) imprime argv.
 - [arg2.c](aula9/arg2.c) soma argumentos usando strtol.
 - [arg3.c](aula9/arg3.c) imprime variáveis de ambiente getenv.
+
+## Aula 10
+> https://gitlab.com/blau_araujo/cblc/-/tree/main/aulas/10-dataio
+
+Entrada e saída padrão.
+
+Arquivos:
+- [io0.c](aula9/io0.c) usa stdlib.h system para exibir descritores de arquivos.
+- [io1.c](aula9/io1.c) exibe descritores de arquivos do programa e do pipe. (execute com pipe `./io1 | cat`).
+
