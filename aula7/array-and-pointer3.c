@@ -8,6 +8,5 @@ int main(void) {
     // Ponteiro para um vetor char[7] em .rodata...
     char *pstr = "cabana";
 
-
     return 0;
 }

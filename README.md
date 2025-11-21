@@ -110,6 +110,17 @@ Arquivos:
 Entrada e saída padrão.
 
 Arquivos:
-- [io0.c](aula9/io0.c) usa stdlib.h system para exibir descritores de arquivos.
-- [io1.c](aula9/io1.c) exibe descritores de arquivos do programa e do pipe. (execute com pipe `./io1 | cat`).
+- [io0.c](aula10/io0.c) usa stdlib.h system para exibir descritores de arquivos.
+- [io1.c](aula10/io1.c) exibe descritores de arquivos do programa e do pipe. (execute com pipe `./io1 | cat`).
 
+## Aula 11
+> https://gitlab.com/blau_araujo/cblc/-/tree/main/aulas/11-scanf
+
+Leitura da entrada padrão com ‘scanf’.
+
+Arquivos:
+- [io0.c](aula11/io0.c) verifica se stdin é o terminal.
+- [io1.c](aula11/io1.c) muda o arquivo de entrada para stdin criando um redirecionamento.
+- [io2.c](aula11/io2.c) usa fgets ao invés de scanf para obter input do usuário.
+- [io3.c](aula11/io3.c) usa fgets com strim.
+- [io4.c](aula11/io4.c) usa read ao invés de fgets e scanf.
