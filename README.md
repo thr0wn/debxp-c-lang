@@ -124,3 +124,10 @@ Arquivos:
 - [io2.c](aula11/io2.c) usa fgets ao invés de scanf para obter input do usuário.
 - [io3.c](aula11/io3.c) usa fgets com strim.
 - [io4.c](aula11/io4.c) usa read ao invés de fgets e scanf.
+
+## Extra
+
+Comunicação entre emacs and c
+
+- [emacs0.c](extra/emacs0.c) read stdin em loop.
+- [emacs0.el](extra/emacs0.el) inicia um processo com emacs0.c e envia uma string.
