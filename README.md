@@ -125,6 +125,17 @@ Arquivos:
 - [io3.c](aula11/io3.c) usa fgets com strim.
 - [io4.c](aula11/io4.c) usa read ao invés de fgets e scanf.
 
+
+## Aula 12
+> https://gitlab.com/blau_araujo/cblc/-/tree/main/aulas/14-rfiles
+
+Leitura e escrita em arquivos.
+
+Arquivos:
+- [fread.c](aula12/fread.c) lê o conteúdo de um arquivo passado como parametro.
+- [fwrite.c](aula12/fwrite.c) escreve o conteúdo de um arquivo.
+- [fread-write.c](aula12/fread-write.c) lê e escreve o conteúdo de um arquivo.
+
 ## Extra
 
 Comunicação entre emacs and c
