@@ -10,7 +10,7 @@ Códigos do curso de C disponibilizado pelo canal debxp: https://www.youtube.com
 Introdução à linguagem e à história do c.
 
 Arquivos:
-- [salve.c](build/aula1/salve.c) exibe uma string.
+- [salve.c](aula1/salve.c) exibe uma string.
 
 ## Aula 2
 > https://gitlab.com/blau_araujo/cblc/-/tree/main/aulas/02-dados-e-instrucoes
@@ -91,7 +91,7 @@ Processos e layout de memória.
 Arquivos:
 - [fork-exec.c](aula8/fork-exec.c) formas de se declarar um vetor.
 - [layout-memoria.org](aula8/layout-memoria.org) tabela com o layout de memória.
-- [mmap.c](aula8/layout-memoria.org) layout de memória como obtido em /proc/self/maps.
+- [mmap.c](aula8/nmap.c) layout de memória como obtido em /proc/self/maps.
 
 ## Aula 9
 > https://gitlab.com/blau_araujo/cblc/-/tree/main/aulas/09-args
@@ -99,10 +99,10 @@ Arquivos:
 Argumentos e ambiente.
 
 Arquivos:
-- [arg0.c](aula9/arg0.c) imprime um array de strings.
-- [arg1.c](aula9/arg1.c) imprime argv.
-- [arg2.c](aula9/arg2.c) soma argumentos usando strtol.
-- [arg3.c](aula9/arg3.c) imprime variáveis de ambiente getenv.
+- [args0.c](aula9/args0.c) imprime um array de strings.
+- [args1.c](aula9/args1.c) imprime argv.
+- [args2.c](aula9/args2.c) soma argumentos usando strtol.
+- [args3.c](aula9/args3.c) imprime variáveis de ambiente getenv.
 
 ## Aula 10
 > https://gitlab.com/blau_araujo/cblc/-/tree/main/aulas/10-dataio
