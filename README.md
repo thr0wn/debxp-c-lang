@@ -1,4 +1,4 @@
-[![](https://img.shields.io/badge/c-black?logo=c&style=for-the-badge)](https://learnxinyminutes.com/c/)
+[![](https://img.shields.io/badge/clang-black?logo=c&style=for-the-badge)](https://learnxinyminutes.com/c/)
 
 # Debxp: Curso básico da linguagem C
 
